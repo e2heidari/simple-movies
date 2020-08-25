@@ -57,7 +57,9 @@ const Movies = ({ allMovies }) => {
         value="year"
         onClick={onYearSelected}
       />
-      {components}
+      <div className="movies-container">
+        {components}
+      </div>
     </div>
   );
 };
